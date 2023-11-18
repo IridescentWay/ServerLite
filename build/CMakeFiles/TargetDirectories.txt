@@ -1,0 +1,3 @@
+/home/verelee/projects/mine/ServerLite/build/CMakeFiles/ServerLite.dir
+/home/verelee/projects/mine/ServerLite/build/CMakeFiles/edit_cache.dir
+/home/verelee/projects/mine/ServerLite/build/CMakeFiles/rebuild_cache.dir
