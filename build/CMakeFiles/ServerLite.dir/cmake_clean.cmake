@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ServerLite.dir/src/ServerLite.cpp.o"
   "CMakeFiles/ServerLite.dir/src/ServerLite.cpp.o.d"
+  "CMakeFiles/ServerLite.dir/src/main.cpp.o"
+  "CMakeFiles/ServerLite.dir/src/main.cpp.o.d"
   "ServerLite"
   "ServerLite.pdb"
 )

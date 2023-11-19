@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/verelee/projects/mine/ServerLite/src/ServerLite.cpp" "CMakeFiles/ServerLite.dir/src/ServerLite.cpp.o" "gcc" "CMakeFiles/ServerLite.dir/src/ServerLite.cpp.o.d"
+  "/home/verelee/projects/mine/ServerLite/src/main.cpp" "CMakeFiles/ServerLite.dir/src/main.cpp.o" "gcc" "CMakeFiles/ServerLite.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

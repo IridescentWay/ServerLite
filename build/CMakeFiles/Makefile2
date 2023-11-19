@@ -81,12 +81,12 @@ clean: CMakeFiles/ServerLite.dir/clean
 CMakeFiles/ServerLite.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/verelee/projects/mine/ServerLite/build/CMakeFiles --progress-num=1,2 "Built target ServerLite"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/verelee/projects/mine/ServerLite/build/CMakeFiles --progress-num=1,2,3 "Built target ServerLite"
 .PHONY : CMakeFiles/ServerLite.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ServerLite.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/verelee/projects/mine/ServerLite/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/verelee/projects/mine/ServerLite/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ServerLite.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/verelee/projects/mine/ServerLite/build/CMakeFiles 0
 .PHONY : CMakeFiles/ServerLite.dir/rule

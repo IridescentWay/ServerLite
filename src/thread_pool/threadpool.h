@@ -3,15 +3,24 @@
 
 #include "../db_connection_pool/db_connection_pool.h"
 
-enum ActorModel {Reactor, Proactor};
+#include <exception>
+
+#include <pthread.h>
 
 template <typename T>
 class ThreadPool
 {
 public:
+    enum ActorModel {REACTOR, PROACTOR};
+
+public:
     ThreadPool(enum ActorModel actor_model, DB_ConnectionPool *connPool, int threadNum = 8, int maxRequest = 10000);
     ~ThreadPool();
     bool append(T *request);
+
+private:
+    static void *worker(void *arg);
+    void run();
 
 private:
     int m_threadNum;
@@ -19,8 +28,9 @@ private:
     pthread_t *m_threads;
     std::list<T*> m_workqueue;
     Locker m_queuelocker;
-    Cond_Variable m_hasWork;
-    
+    Semaphore m_queueStat;
+    DB_ConnectionPool *m_connPool;
+    enum ActorModel m_actor_mode;
 };
 
 #endif  // __THREADPOOL_H__

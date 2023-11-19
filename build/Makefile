@@ -153,6 +153,30 @@ src/ServerLite.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/ServerLite.cpp.s
 .PHONY : src/ServerLite.cpp.s
 
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... src/ServerLite.o"
 	@echo "... src/ServerLite.i"
 	@echo "... src/ServerLite.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

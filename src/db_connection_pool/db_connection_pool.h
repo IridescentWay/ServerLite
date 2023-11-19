@@ -3,6 +3,7 @@
 
 #include <string>
 #include <list>
+
 #include <mysql/mysql.h>
 
 #include "../locker/locker.h"
