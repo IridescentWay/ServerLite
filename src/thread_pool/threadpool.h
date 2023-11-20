@@ -7,12 +7,11 @@
 
 #include <pthread.h>
 
+enum ActorModel {REACTOR, PROACTOR};
+
 template <typename T>
 class ThreadPool
 {
-public:
-    enum ActorModel {REACTOR, PROACTOR};
-
 public:
     ThreadPool(enum ActorModel actor_model, DB_ConnectionPool *connPool, int threadNum = 8, int maxRequest = 10000);
     ~ThreadPool();
