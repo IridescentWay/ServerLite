@@ -1,5 +1,6 @@
 #include "db_connection_pool.h"
 
+#include <iterator>
 #include <mysql/mysql.h>
 #include <iostream>
 
@@ -27,7 +28,9 @@ void DB_ConnectionPool::init(std::string url, std::string user, std::string pswd
         }
         conn = mysql_real_connect(conn, url.c_str(), user.c_str(), pswd.c_str(), dbName.c_str(), port, NULL, 0);
         if (NULL == conn) {
+            std::cout << url.c_str() << std::endl << user.c_str() << std::endl << dbName.c_str() << std::endl << port << std::endl;
             std::cout << "MySQL real connect Error" << std::endl;
+            exit(1);
         }
         connList.push_back(conn);
     }

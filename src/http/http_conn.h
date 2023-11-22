@@ -2,6 +2,7 @@
 #define __HTTP_CONN_H__
 
 #include <arpa/inet.h>
+#include <cstddef>
 #include <fcntl.h>
 #include <mysql/mysql.h>
 #include <netinet/in.h>
@@ -58,7 +59,7 @@ public:
     ~HttpConnection();
 
 public:
-    void init(int sockfd, const sockaddr_in &addr, char* root, int TrigMode, int log_option, std::string user, std::string pswd, std::string sqlName);
+    void init(int sockfd, const sockaddr_in &addr, char* root, int TrigMode, int log_option, std::string user, std::string pswd, std::string sql_name);
     void close_conn(bool real_close = true);
     void process();
     bool readOnce();
@@ -72,7 +73,7 @@ public:
 private:
     void init();
     HTTP_CODE processRead();
-    bool processWrite(HTTP_CODE ret);
+    bool processWrite(HTTP_CODE readRet);
     HTTP_CODE parseRequestLine(char *text);
     HTTP_CODE parseHeaders(char *text);
     HTTP_CODE parseContent(char *text);
@@ -104,7 +105,7 @@ private:
     int m_start_line;
     char m_writeBuf[WRITE_BUFFER_SIZE];
     int m_write_idx;
-    CHECK_STATE m_checState;
+    CHECK_STATE m_checkState;
     METHOD m_method;
     char m_realFile[FILENAME_LEN];
     char *m_url;
@@ -119,7 +120,7 @@ private:
     int cgi;
     char *m_requestHeader;
     int bytesToSend;
-    int bytesHaveSent;
+    size_t bytesHaveSent;
     char *doc_root;
 
     std::map<std::string, std::string> m_users;

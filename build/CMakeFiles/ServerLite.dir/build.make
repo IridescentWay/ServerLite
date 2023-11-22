@@ -83,10 +83,66 @@ CMakeFiles/ServerLite.dir/src/ServerLite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerLite.dir/src/ServerLite.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/verelee/projects/mine/ServerLite/src/ServerLite.cpp -o CMakeFiles/ServerLite.dir/src/ServerLite.cpp.s
 
+CMakeFiles/ServerLite.dir/src/config/config.cpp.o: CMakeFiles/ServerLite.dir/flags.make
+CMakeFiles/ServerLite.dir/src/config/config.cpp.o: /home/verelee/projects/mine/ServerLite/src/config/config.cpp
+CMakeFiles/ServerLite.dir/src/config/config.cpp.o: CMakeFiles/ServerLite.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/verelee/projects/mine/ServerLite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ServerLite.dir/src/config/config.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ServerLite.dir/src/config/config.cpp.o -MF CMakeFiles/ServerLite.dir/src/config/config.cpp.o.d -o CMakeFiles/ServerLite.dir/src/config/config.cpp.o -c /home/verelee/projects/mine/ServerLite/src/config/config.cpp
+
+CMakeFiles/ServerLite.dir/src/config/config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerLite.dir/src/config/config.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/verelee/projects/mine/ServerLite/src/config/config.cpp > CMakeFiles/ServerLite.dir/src/config/config.cpp.i
+
+CMakeFiles/ServerLite.dir/src/config/config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerLite.dir/src/config/config.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/verelee/projects/mine/ServerLite/src/config/config.cpp -o CMakeFiles/ServerLite.dir/src/config/config.cpp.s
+
+CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.o: CMakeFiles/ServerLite.dir/flags.make
+CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.o: /home/verelee/projects/mine/ServerLite/src/db_connection_pool/db_connection_pool.cpp
+CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.o: CMakeFiles/ServerLite.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/verelee/projects/mine/ServerLite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.o -MF CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.o.d -o CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.o -c /home/verelee/projects/mine/ServerLite/src/db_connection_pool/db_connection_pool.cpp
+
+CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/verelee/projects/mine/ServerLite/src/db_connection_pool/db_connection_pool.cpp > CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.i
+
+CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/verelee/projects/mine/ServerLite/src/db_connection_pool/db_connection_pool.cpp -o CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.s
+
+CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.o: CMakeFiles/ServerLite.dir/flags.make
+CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.o: /home/verelee/projects/mine/ServerLite/src/http/http_conn.cpp
+CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.o: CMakeFiles/ServerLite.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/verelee/projects/mine/ServerLite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.o -MF CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.o.d -o CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.o -c /home/verelee/projects/mine/ServerLite/src/http/http_conn.cpp
+
+CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/verelee/projects/mine/ServerLite/src/http/http_conn.cpp > CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.i
+
+CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/verelee/projects/mine/ServerLite/src/http/http_conn.cpp -o CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.s
+
+CMakeFiles/ServerLite.dir/src/locker/locker.cpp.o: CMakeFiles/ServerLite.dir/flags.make
+CMakeFiles/ServerLite.dir/src/locker/locker.cpp.o: /home/verelee/projects/mine/ServerLite/src/locker/locker.cpp
+CMakeFiles/ServerLite.dir/src/locker/locker.cpp.o: CMakeFiles/ServerLite.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/verelee/projects/mine/ServerLite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ServerLite.dir/src/locker/locker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ServerLite.dir/src/locker/locker.cpp.o -MF CMakeFiles/ServerLite.dir/src/locker/locker.cpp.o.d -o CMakeFiles/ServerLite.dir/src/locker/locker.cpp.o -c /home/verelee/projects/mine/ServerLite/src/locker/locker.cpp
+
+CMakeFiles/ServerLite.dir/src/locker/locker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerLite.dir/src/locker/locker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/verelee/projects/mine/ServerLite/src/locker/locker.cpp > CMakeFiles/ServerLite.dir/src/locker/locker.cpp.i
+
+CMakeFiles/ServerLite.dir/src/locker/locker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerLite.dir/src/locker/locker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/verelee/projects/mine/ServerLite/src/locker/locker.cpp -o CMakeFiles/ServerLite.dir/src/locker/locker.cpp.s
+
 CMakeFiles/ServerLite.dir/src/main.cpp.o: CMakeFiles/ServerLite.dir/flags.make
 CMakeFiles/ServerLite.dir/src/main.cpp.o: /home/verelee/projects/mine/ServerLite/src/main.cpp
 CMakeFiles/ServerLite.dir/src/main.cpp.o: CMakeFiles/ServerLite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/verelee/projects/mine/ServerLite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ServerLite.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/verelee/projects/mine/ServerLite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ServerLite.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ServerLite.dir/src/main.cpp.o -MF CMakeFiles/ServerLite.dir/src/main.cpp.o.d -o CMakeFiles/ServerLite.dir/src/main.cpp.o -c /home/verelee/projects/mine/ServerLite/src/main.cpp
 
 CMakeFiles/ServerLite.dir/src/main.cpp.i: cmake_force
@@ -97,19 +153,43 @@ CMakeFiles/ServerLite.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerLite.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/verelee/projects/mine/ServerLite/src/main.cpp -o CMakeFiles/ServerLite.dir/src/main.cpp.s
 
+CMakeFiles/ServerLite.dir/src/utils/utils.cpp.o: CMakeFiles/ServerLite.dir/flags.make
+CMakeFiles/ServerLite.dir/src/utils/utils.cpp.o: /home/verelee/projects/mine/ServerLite/src/utils/utils.cpp
+CMakeFiles/ServerLite.dir/src/utils/utils.cpp.o: CMakeFiles/ServerLite.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/verelee/projects/mine/ServerLite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ServerLite.dir/src/utils/utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ServerLite.dir/src/utils/utils.cpp.o -MF CMakeFiles/ServerLite.dir/src/utils/utils.cpp.o.d -o CMakeFiles/ServerLite.dir/src/utils/utils.cpp.o -c /home/verelee/projects/mine/ServerLite/src/utils/utils.cpp
+
+CMakeFiles/ServerLite.dir/src/utils/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerLite.dir/src/utils/utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/verelee/projects/mine/ServerLite/src/utils/utils.cpp > CMakeFiles/ServerLite.dir/src/utils/utils.cpp.i
+
+CMakeFiles/ServerLite.dir/src/utils/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerLite.dir/src/utils/utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/verelee/projects/mine/ServerLite/src/utils/utils.cpp -o CMakeFiles/ServerLite.dir/src/utils/utils.cpp.s
+
 # Object files for target ServerLite
 ServerLite_OBJECTS = \
 "CMakeFiles/ServerLite.dir/src/ServerLite.cpp.o" \
-"CMakeFiles/ServerLite.dir/src/main.cpp.o"
+"CMakeFiles/ServerLite.dir/src/config/config.cpp.o" \
+"CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.o" \
+"CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.o" \
+"CMakeFiles/ServerLite.dir/src/locker/locker.cpp.o" \
+"CMakeFiles/ServerLite.dir/src/main.cpp.o" \
+"CMakeFiles/ServerLite.dir/src/utils/utils.cpp.o"
 
 # External object files for target ServerLite
 ServerLite_EXTERNAL_OBJECTS =
 
 ServerLite: CMakeFiles/ServerLite.dir/src/ServerLite.cpp.o
+ServerLite: CMakeFiles/ServerLite.dir/src/config/config.cpp.o
+ServerLite: CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.o
+ServerLite: CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.o
+ServerLite: CMakeFiles/ServerLite.dir/src/locker/locker.cpp.o
 ServerLite: CMakeFiles/ServerLite.dir/src/main.cpp.o
+ServerLite: CMakeFiles/ServerLite.dir/src/utils/utils.cpp.o
 ServerLite: CMakeFiles/ServerLite.dir/build.make
 ServerLite: CMakeFiles/ServerLite.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/verelee/projects/mine/ServerLite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ServerLite"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/verelee/projects/mine/ServerLite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ServerLite"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ServerLite.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

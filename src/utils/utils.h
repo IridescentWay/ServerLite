@@ -3,6 +3,9 @@
 
 #include <bits/types/time_t.h>
 #include <netinet/in.h>
+#include <sys/epoll.h>
+#include <assert.h>
+#include <signal.h>
 
 class MTimer;
 
@@ -52,8 +55,10 @@ public:
     ~Utils();
 
     void init(int timeslot);
-    int setNonblocking(int fd);
-    void addfd(int epollfd, int fd, bool oneshot, int trigMode);
+    static int setNonblocking(int fd);
+    static void addfd(int epollfd, int fd, bool oneshot, int trigMode);
+    static void removefd(int epollfd, int fd);
+    static void modfd(int epollfd, int fd, int ev, int trigMode);
     static void sigHandler(int sig);
     void addSig(int sig, void(handler)(int), bool restart = true);
     void timerHandler();

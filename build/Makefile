@@ -153,6 +153,102 @@ src/ServerLite.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/ServerLite.cpp.s
 .PHONY : src/ServerLite.cpp.s
 
+src/config/config.o: src/config/config.cpp.o
+.PHONY : src/config/config.o
+
+# target to build an object file
+src/config/config.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/config/config.cpp.o
+.PHONY : src/config/config.cpp.o
+
+src/config/config.i: src/config/config.cpp.i
+.PHONY : src/config/config.i
+
+# target to preprocess a source file
+src/config/config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/config/config.cpp.i
+.PHONY : src/config/config.cpp.i
+
+src/config/config.s: src/config/config.cpp.s
+.PHONY : src/config/config.s
+
+# target to generate assembly for a file
+src/config/config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/config/config.cpp.s
+.PHONY : src/config/config.cpp.s
+
+src/db_connection_pool/db_connection_pool.o: src/db_connection_pool/db_connection_pool.cpp.o
+.PHONY : src/db_connection_pool/db_connection_pool.o
+
+# target to build an object file
+src/db_connection_pool/db_connection_pool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.o
+.PHONY : src/db_connection_pool/db_connection_pool.cpp.o
+
+src/db_connection_pool/db_connection_pool.i: src/db_connection_pool/db_connection_pool.cpp.i
+.PHONY : src/db_connection_pool/db_connection_pool.i
+
+# target to preprocess a source file
+src/db_connection_pool/db_connection_pool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.i
+.PHONY : src/db_connection_pool/db_connection_pool.cpp.i
+
+src/db_connection_pool/db_connection_pool.s: src/db_connection_pool/db_connection_pool.cpp.s
+.PHONY : src/db_connection_pool/db_connection_pool.s
+
+# target to generate assembly for a file
+src/db_connection_pool/db_connection_pool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/db_connection_pool/db_connection_pool.cpp.s
+.PHONY : src/db_connection_pool/db_connection_pool.cpp.s
+
+src/http/http_conn.o: src/http/http_conn.cpp.o
+.PHONY : src/http/http_conn.o
+
+# target to build an object file
+src/http/http_conn.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.o
+.PHONY : src/http/http_conn.cpp.o
+
+src/http/http_conn.i: src/http/http_conn.cpp.i
+.PHONY : src/http/http_conn.i
+
+# target to preprocess a source file
+src/http/http_conn.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.i
+.PHONY : src/http/http_conn.cpp.i
+
+src/http/http_conn.s: src/http/http_conn.cpp.s
+.PHONY : src/http/http_conn.s
+
+# target to generate assembly for a file
+src/http/http_conn.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/http/http_conn.cpp.s
+.PHONY : src/http/http_conn.cpp.s
+
+src/locker/locker.o: src/locker/locker.cpp.o
+.PHONY : src/locker/locker.o
+
+# target to build an object file
+src/locker/locker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/locker/locker.cpp.o
+.PHONY : src/locker/locker.cpp.o
+
+src/locker/locker.i: src/locker/locker.cpp.i
+.PHONY : src/locker/locker.i
+
+# target to preprocess a source file
+src/locker/locker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/locker/locker.cpp.i
+.PHONY : src/locker/locker.cpp.i
+
+src/locker/locker.s: src/locker/locker.cpp.s
+.PHONY : src/locker/locker.s
+
+# target to generate assembly for a file
+src/locker/locker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/locker/locker.cpp.s
+.PHONY : src/locker/locker.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -177,6 +273,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/utils/utils.o: src/utils/utils.cpp.o
+.PHONY : src/utils/utils.o
+
+# target to build an object file
+src/utils/utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/utils/utils.cpp.o
+.PHONY : src/utils/utils.cpp.o
+
+src/utils/utils.i: src/utils/utils.cpp.i
+.PHONY : src/utils/utils.i
+
+# target to preprocess a source file
+src/utils/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/utils/utils.cpp.i
+.PHONY : src/utils/utils.cpp.i
+
+src/utils/utils.s: src/utils/utils.cpp.s
+.PHONY : src/utils/utils.s
+
+# target to generate assembly for a file
+src/utils/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerLite.dir/build.make CMakeFiles/ServerLite.dir/src/utils/utils.cpp.s
+.PHONY : src/utils/utils.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +309,24 @@ help:
 	@echo "... src/ServerLite.o"
 	@echo "... src/ServerLite.i"
 	@echo "... src/ServerLite.s"
+	@echo "... src/config/config.o"
+	@echo "... src/config/config.i"
+	@echo "... src/config/config.s"
+	@echo "... src/db_connection_pool/db_connection_pool.o"
+	@echo "... src/db_connection_pool/db_connection_pool.i"
+	@echo "... src/db_connection_pool/db_connection_pool.s"
+	@echo "... src/http/http_conn.o"
+	@echo "... src/http/http_conn.i"
+	@echo "... src/http/http_conn.s"
+	@echo "... src/locker/locker.o"
+	@echo "... src/locker/locker.i"
+	@echo "... src/locker/locker.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/utils/utils.o"
+	@echo "... src/utils/utils.i"
+	@echo "... src/utils/utils.s"
 .PHONY : help
 
 
