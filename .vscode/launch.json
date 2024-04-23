@@ -4,9 +4,9 @@
         "name": "(gdb) Launch",
         "type": "cppdbg",
         "request": "launch",
-        "program": "enter program name, for example ${workspaceFolder}/a.out",
+        "program": "${workspaceFolder}/build/ServerLite",
         "args": [
-            "-p", "9006",
+            "-p", "9007",
             "-l", "0",
             "-m", "0",
             "-o", "0",
